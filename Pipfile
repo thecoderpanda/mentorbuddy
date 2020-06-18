@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+"pytest-pep8" = "*"
+coveralls = "*"
+factory-boy = "*"
+coverage = "*"
+pylint = "*"
+djangorestframework-jwt = "*"
+
+[packages]
+django = "<2.0,>1.11"
+"psycopg2" = "*"
+gunicorn = "*"
+django-heroku = "*"
+whitenoise = "*"
+djangorestframework = "*"
+django-multiselectfield = "*"
+djangorestframework-jwt = "*"
+django-cors-headers = "*"
+
+[requires]
+python_version = "3.6"

@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfileForm /> renders snapshot correctly 1`] = `
+<form
+  noValidate={true}
+>
+  <WithStyles(Typography)
+    color="secondary"
+    gutterBottom={true}
+    variant="subheading"
+  >
+    CREATE YOUR 
+    MENTEE
+     PROFILE
+  </WithStyles(Typography)>
+  <WithStyles(Typography)
+    color="secondary"
+    gutterBottom={true}
+    variant="subheading"
+  >
+    _____
+  </WithStyles(Typography)>
+  <FormSection
+    component="div"
+    name="profile"
+  >
+    <Field
+      component={[Function]}
+      label="Slack Handle"
+      name="slack_handle"
+    />
+    <Field
+      component={[Function]}
+      label="Linkedin URL"
+      name="linked_in_url"
+    />
+    <Field
+      component={[Function]}
+      label="Code Repository URL"
+      name="projects_url"
+    />
+    <Field
+      component={[Function]}
+      label="Bio"
+      multiline={true}
+      name="bio"
+      required={true}
+      rows="8"
+    />
+  </FormSection>
+  <FormSection
+    component="div"
+    name="mentee"
+  >
+    <Field
+      component={[Function]}
+      label="Goals"
+      multiline={true}
+      name="goals"
+      required={true}
+      rows="5"
+    />
+  </FormSection>
+  <FormSection
+    component="div"
+    name="profile"
+  >
+    <Field
+      component={[Function]}
+      label="Years of Industry Experience"
+      name="years_industry_experience"
+      source={
+        Array [
+          Object {
+            "label": "0-1",
+            "value": "entry",
+          },
+          Object {
+            "label": "1-3",
+            "value": "junior",
+          },
+          Object {
+            "label": "3-7",
+            "value": "intermediate",
+          },
+          Object {
+            "label": "7+",
+            "value": "senior",
+          },
+        ]
+      }
+    />
+  </FormSection>
+  <FormSection
+    component="div"
+    name="mentee"
+  >
+    <Field
+      component={[Function]}
+      items={
+        Array [
+          Object {
+            "label": "Portfolio/Code Review",
+            "value": "portfolio",
+          },
+          Object {
+            "label": "Job Search and Interviews",
+            "value": "jobSearch",
+          },
+          Object {
+            "label": "Industry Trends, Skills, Technologies",
+            "value": "skills",
+          },
+          Object {
+            "label": "Leadership, Management",
+            "value": "leadership",
+          },
+          Object {
+            "label": "Business, Entrepreneurship",
+            "value": "business",
+          },
+          Object {
+            "label": "Career Growth",
+            "value": "careerGrowth",
+          },
+        ]
+      }
+      label="Areas of Guidance"
+      multiple={true}
+      name="areas_of_guidance"
+      required={true}
+    />
+  </FormSection>
+  <WithStyles(Button)
+    color="secondary"
+    onClick={[Function]}
+    size="large"
+    variant="raised"
+  >
+    BACK
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="primary"
+    size="large"
+    type="submit"
+    variant="raised"
+  >
+    CONTINUE
+  </WithStyles(Button)>
+</form>
+`;
